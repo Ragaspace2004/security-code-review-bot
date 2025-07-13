@@ -1,0 +1,6 @@
+flask 
+requests
+PyYAML
+python-dotenv
+PyJWT
+cryptography
