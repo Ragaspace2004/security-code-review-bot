@@ -44,3 +44,16 @@ Thumbs.db
 
 # Deployment
 railway.json
+
+#unwanted
+Capture.PNG
+DEPLOY.md
+get_installations.py
+SECURITY.md
+GITHUB_APP_SETUP.md
+webhook_test.py
+test_vulnerable_code.py
+test_public_app.py
+TEST_CASES.md
+RAILWAY_DEPLOY.md
+test_auth.py

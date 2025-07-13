@@ -47,9 +47,9 @@ class GitHubAppAuth:
             
         now = int(time.time())
         payload = {
-            'iat': now,
-            'exp': now + 600,  # 10 minutes
-            'iss': self.app_id
+            'iat': now - 60,  # Start 1 minute ago to account for clock skew
+            'exp': now + 300,  # Expire in 5 minutes (GitHub allows max 10 minutes)
+            'iss': int(self.app_id)  # Ensure app_id is an integer
         }
         
         try:
